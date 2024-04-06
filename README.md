@@ -28,3 +28,7 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+# Response
+I think that a good invariant would be something that at each recurssive call it relys on the values up to (n - 1). Considering the "state of the world" we can establish that at the start of each recurisive call we know the (n - 1) term is correctly computed. This allows us to know that we can determine the nth term since from 0 to (n - 1)
+are true. 
